@@ -1,6 +1,7 @@
 import {
   defineConfig
 } from 'vitepress'
+import mdItCustomAttrs  from 'markdown-it-custom-attrs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -26,6 +27,12 @@ export default defineConfig({
 
 
     markdown: {
+      config: (md) => {
+        // use more markdown-it plugins!
+        md.use(mdItCustomAttrs, 'image', {
+            'data-fancybox': "gallery"
+        })
+        },
       setup(md) {
         // 使用 shiki 的代码高亮功能
         md.use(require('shiki'), {
@@ -323,4 +330,5 @@ export default defineConfig({
     },
 
   },
+  
 })
