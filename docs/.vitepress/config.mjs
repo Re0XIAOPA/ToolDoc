@@ -12,7 +12,7 @@ export default defineConfig({
   head: [
     ['link', {
       rel: 'icon',
-      href: '/icon/tool.png'
+      href: '/tool.png'
     }],
   ],
   lastUpdated: true,
@@ -22,7 +22,7 @@ export default defineConfig({
     outlineTitle: "页面导航",
     outline: [2, 6],
 
-    logo: "/icon/tool.png",
+    logo: "/tool.png",
 
 
     markdown: {
