@@ -8,7 +8,7 @@ hero:
   text: "编程学习文档笔记"
   tagline: 每时每刻学习着  -  Learning all the time |                    记录学习的文档笔记  -  @爱吃饭的小Q   |
   image:
-    src: /tool.png
+    src: /ToolDoc/tool.png
     alt: logo
   actions:
     - theme: brand

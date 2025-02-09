@@ -22,7 +22,7 @@ export default defineConfig({
     outlineTitle: "页面导航",
     outline: [2, 6],
 
-    logo: "/icon/tool.png",
+    logo: "/ToolDoc/icon/tool.png",
 
 
     markdown: {
