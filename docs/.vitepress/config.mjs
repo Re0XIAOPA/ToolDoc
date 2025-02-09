@@ -11,7 +11,7 @@ export default defineConfig({
   head: [
     ['link', {
       rel: 'icon',
-      href: '/background.svg'
+      href: '/icon/tool.png'
     }],
   ],
   lastUpdated: true,
