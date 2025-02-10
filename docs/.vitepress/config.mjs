@@ -1,7 +1,7 @@
 import {
   defineConfig
 } from 'vitepress'
-import mdItCustomAttrs  from 'markdown-it-custom-attrs'
+import mdItCustomAttrs from 'markdown-it-custom-attrs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,9 +30,9 @@ export default defineConfig({
       config: (md) => {
         // use more markdown-it plugins!
         md.use(mdItCustomAttrs, 'image', {
-            'data-fancybox': "gallery"
+          'data-fancybox': "gallery"
         })
-        },
+      },
       setup(md) {
         // 使用 shiki 的代码高亮功能
         md.use(require('shiki'), {
@@ -153,7 +153,7 @@ export default defineConfig({
     // },
 
     {
-      text: '语言',
+      text: '学习',
       items: [{
         // 也可以省略标题
         text: '爪哇网页',
@@ -213,6 +213,56 @@ export default defineConfig({
     },
 
     {
+      text: '看电视',
+      items: [
+        {
+          // 也可以省略标题
+          text: '动漫',
+          items: [{
+            text: '次元城动漫发布页',
+            link: 'https://www.cycity.pro/'
+          },
+          {
+            text: '囧次元(日漫&弹幕)',
+            link: 'https://jcypc.net/'
+          },
+          {
+            text: 'omofun(官网复活啦)',
+            link: 'https://lanerc.app/'
+          },
+          {
+            text: 'MX动漫(国漫&日漫)',
+            link: 'http://www.mxdm.tv/'
+          },
+          {
+            text: 'FreeOK(动漫&追剧)',
+            link: 'https://freeok.lol/'
+          }
+          ]
+        },
+        {
+          // 也可以省略标题
+          text: '影视',
+          items: [{
+            text: '可可影视(可百度搜)',
+            link: 'https://www.keke13.com/'
+          },
+          {
+            text: '韩剧TV(韩小圈&动漫&韩剧)',
+            link: 'https://www.hjtv2.cc/'
+          }, {
+            text: 'FreeOK(动漫&追剧)',
+            link: 'https://freeok.lol/'
+          }, {
+            text: '追剧影视(动漫&追剧)',
+            link: 'http://zjuys.com/'
+          }
+          ]
+        },
+      ]
+    },
+
+    {
       text: '更多',
       items: [{
         text: '联系',
@@ -237,47 +287,6 @@ export default defineConfig({
         {
           text: 'Steam(防小白迷路)',
           link: 'https://store.steampowered.com/join'
-        }
-        ]
-      },
-      {
-        // 也可以省略标题
-        text: '动漫',
-        items: [{
-          text: '次元城动漫发布页',
-          link: 'https://www.cycity.pro/'
-        },
-        {
-          text: '囧次元(日漫&弹幕)',
-          link: 'https://jcypc.net/'
-        },
-        {
-          text: 'omofun(官网复活啦)',
-          link: 'https://lanerc.app/'
-        },
-        {
-          text: 'MX动漫(国漫&日漫)',
-          link: 'http://www.mxdm.tv/'
-        },
-        {
-          text: 'FreeOK(动漫&追剧)',
-          link: 'https://freeok.lol/'
-        }
-        ]
-      },
-      {
-        // 也可以省略标题
-        text: '影视',
-        items: [{
-          text: '瓜子影视(可百度搜)',
-          link: 'https://www.gz99.co/'
-        },
-        {
-          text: 'FreeOK(动漫&追剧)',
-          link: 'https://freeok.lol/'
-        }, {
-          text: '追剧影视(动漫&追剧)',
-          link: 'http://zjuys.com/'
         }
         ]
       },
@@ -330,5 +339,5 @@ export default defineConfig({
     },
 
   },
-  
+
 })
