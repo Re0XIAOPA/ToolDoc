@@ -82,6 +82,10 @@ export default defineConfig({
           text: 'MySQL的安装和环境配置',
           link: '/tooldoc/zh/MySQL/MySQL-install'
         },
+        {
+          text: 'Nodejs环境配置',
+          link: '/tooldoc/zh/Nodejs/Nodejs环境配置.md'
+        }
         ]
       },
       {
@@ -199,6 +203,10 @@ export default defineConfig({
         {
           text: 'MySQL的安装和环境配置',
           link: '/tooldoc/zh/MySQL/MySQL-install'
+        },
+        {
+          text: 'Nodejs环境配置',
+          link: '/tooldoc/zh/Nodejs/Nodejs环境配置.md'
         },
         ]
       },]
