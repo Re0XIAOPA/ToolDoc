@@ -1,4 +1,3 @@
-```markdown
 # Node.js 环境配置指南：配置 `node_global` 和 `node_cache`
 
 ## 目录
@@ -104,4 +103,3 @@ which yarn               # 应显示 node_global 中的路径
    ```
 
 > 配置完成后，所有 `npm install -g` 安装的包都会存储到 `node_global`，缓存文件将存放到 `node_cache`
-```
