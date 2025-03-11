@@ -20,9 +20,10 @@ hero:
       link: /tooldoc/home/Presentation-notes
     
     - theme: alt
-      text: 💻 GitHub
-      link: https://github.com/Re0XIAOPA/ToolDoc
-      #  🎯🔥🌟
+      text: 💻 Jetbrains Crack
+      link: https://jetbrakey.pages.dev/
+      # link: https://github.com/Re0XIAOPA/ToolDoc
+      # 🎯🔥🌟
 
 features:
   - icon: 🎮
