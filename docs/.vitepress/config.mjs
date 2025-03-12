@@ -51,6 +51,9 @@ export default defineConfig({
     // sidebar: {
     //   'document-data': set_sidebar('document-data'), // 文档数据部分侧边栏
     // },
+    /**
+     * 左侧导航栏
+     */
     sidebar: {
       "/": [{
         text: '简介',
@@ -85,6 +88,10 @@ export default defineConfig({
         {
           text: 'Nodejs环境配置',
           link: '/tooldoc/zh/Nodejs/Nodejs环境配置.md'
+        },
+        {
+          text: 'Vue CLI 安装',
+          link: 'https://cli.vuejs.org/zh/guide/installation.html'
         }
         ]
       },
@@ -146,6 +153,9 @@ export default defineConfig({
 
     },
 
+    /**
+     * 顶部导航栏
+     */
     nav: [{
       text: '首页',
       link: '/'
@@ -208,6 +218,10 @@ export default defineConfig({
           text: 'Nodejs环境配置',
           link: '/tooldoc/zh/Nodejs/Nodejs环境配置.md'
         },
+        {
+          text: 'Vue CLI 安装',
+          link: 'https://cli.vuejs.org/zh/guide/installation.html'
+        }
         ]
       },]
     },
