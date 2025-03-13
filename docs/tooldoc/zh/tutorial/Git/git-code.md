@@ -104,7 +104,7 @@ TortoiseGit 是一个开源且基于 Windows Shell 的 Git 版本控制系统的
 >
 >安装汉化之后TortoiseGit常规设置里修改语言文件
 
-![TortoiseGit](/tooldoc/zh/Git/assets/git_imgs/TortoiseGit.gif)
+![TortoiseGit](/tooldoc/zh/tutorial/Git/assets/git_imgs/TortoiseGit.gif)
 
 ## Git配置ssh连接
 
@@ -240,9 +240,9 @@ The key's randomart image is:
 
 ## 在Github和Gitee添加ssh密钥
 
-![Github](/tooldoc/zh/Git/assets/git_imgs/id_rsa_github.png)
+![Github](/tooldoc/zh/tutorial/Git/assets/git_imgs/id_rsa_github.png)
 
-![Gitee](/tooldoc/zh/Git/assets/git_imgs/id_rsa_gitee.png)
+![Gitee](/tooldoc/zh/tutorial/Git/assets/git_imgs/id_rsa_gitee.png)
 
 ### 配置
 

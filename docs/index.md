@@ -42,12 +42,22 @@ features:
       ▶ 机场
     link: https://toolstore.awafuns.cn/
 
-  - icon: 💼
-    title: 商店
+
+  - icon: 🛠️
+    title: Jetbrains Crack
     details: |
-      【Store】
-      ▶ Apple ID
-      ▶ Gmail
-    link: https://store.awafuns.cn/
+      【开发工具】
+      ▶ Jetbrains
+      ▶ 密钥源于网络
+    link: https://jetbrakey.pages.dev/
+
+
+# - icon: 💼
+  #   title: 商店
+  #   details: |
+  #     【Store】
+  #     ▶ Apple ID
+  #     ▶ Gmail
+  #   link: https://store.awafuns.cn/
 ---
 

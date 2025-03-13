@@ -64,23 +64,47 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 ----
 ## MySQL 安装步骤
 
-## 先进入安装的磁盘 
-比如在 D盘管理员打开cmd 就输入(英文输入法输入)   
-D:
+## 先进入安装的磁盘
+比如在 D盘管理员打开cmd 就输入(英文输入法输入)
 
-cd E:\SQL\mysql-8.0.28-winx64\bin   
+::: code-group
+```markdown [第一步]
+<!-- 进入D盘 -->
+D:
+```
+```markdown [第二步]
+cd E:\SQL\mysql-8.0.28-winx64\bin
+```
+::: tip 提示
 (E:\SQL\mysql-8.0.28-winx64\bin这个是路劲)
+:::
+
+
+
 
 ## 初始化
+
+```markdown
 mysqld --initialize-insecure --user=mysql
+```
+
 
 ## 安装MySQL
-mysqld --install MySQL --defaults-file="\my.ini"
 
+```markdown
+mysqld --install MySQL --defaults-file="\my.ini"
+```
+
+```markdown
 mysqld --install MySQL --defaults-file="这里是路劲\my.ini"
+```
 
 ## 例子：
+
+```markdown
 mysqld --install MySQL --defaults-file="D:\MySQL\mysql-8.0.28-winx64\conf.ini"
+```
+
 
 ## 编辑系统环境变量
 
@@ -91,15 +115,26 @@ win+r 输入 services.msc
 
 
 ## 启动MySQL（命令行）
+
+```markdown
 net start mysql
+```
 
 ## 登录MySQL
+
+```markdown
 mysql -h localhost -u root -p
+```
 
 ## 设置密码
+
+```markdown
 SET PASSWORD FOR root@localhost = '';  
+```
+```markdown
 
 SET PASSWORD FOR root@localhost = '123456';  
+```
 
 :::tip 注释
 -h后面参数是主机地址  
@@ -107,7 +142,21 @@ SET PASSWORD FOR root@localhost = '123456';
 -p后面是用户的登录密码（一行下可不输入密码 enter后会显示enterpassword）
 :::
 
-## 退出mysql  
-第一种 exit  
-第二种 quit  
-第三种 \q  
+## 退出mysql
+
+::: code-group
+```markdown [第一种]
+\q
+```
+```markdown [第二种]
+quit
+```
+```markdown [第三种]
+exit
+:::
+
+## 卸载MySQL服务
+
+```markdown
+mysqld remove MySQL
+```
