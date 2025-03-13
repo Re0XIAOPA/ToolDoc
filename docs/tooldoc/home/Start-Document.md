@@ -8,6 +8,6 @@
 
 | [我的世界] | [Github加速] | [头歌答案] |
 | --- | --- | --- |
-| [[点击跳转]](https://tavernce.awafuns.cn/) | [[点击跳转]](../../tooldoc/zh/Github/Github520.md) | [[点击跳转]](../../tooldoc/home/answer/SoftwareEngineeringAnswers.md) |
+| [[点击跳转]](https://tavernce.awafuns.cn/) | [[点击跳转]](../../tooldoc/zh/tutorial/Github/Github520.md) | [[点击跳转]](../../tooldoc/zh/answer/SoftwareEngineeringAnswers.md) |
 
 
