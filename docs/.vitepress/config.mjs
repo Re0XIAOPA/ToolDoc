@@ -45,6 +45,9 @@ export default defineConfig({
     outline: [2, 6],
     logo: "/tool.png",
 
+    // 设置默认主题为暗色模式
+    appearance: 'dark',
+
     // 导航配置调用
     nav,
     sidebar,
