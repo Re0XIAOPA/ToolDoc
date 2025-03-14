@@ -68,11 +68,11 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 比如在 D盘管理员打开cmd 就输入(英文输入法输入)
 
 ::: code-group
-```markdown [第一步]
+```bash [第一步]
 <!-- 进入D盘 -->
 D:
 ```
-```markdown [第二步]
+```bash [第二步]
 cd E:\SQL\mysql-8.0.28-winx64\bin
 ```
 ::: tip 提示
@@ -84,24 +84,24 @@ cd E:\SQL\mysql-8.0.28-winx64\bin
 
 ## 初始化
 
-```markdown
+```bash
 mysqld --initialize-insecure --user=mysql
 ```
 
 
 ## 安装MySQL
 
-```markdown
+```bash
 mysqld --install MySQL --defaults-file="\my.ini"
 ```
 
-```markdown
+```bash
 mysqld --install MySQL --defaults-file="这里是路劲\my.ini"
 ```
 
 ## 例子：
 
-```markdown
+```bash
 mysqld --install MySQL --defaults-file="D:\MySQL\mysql-8.0.28-winx64\conf.ini"
 ```
 
@@ -116,22 +116,22 @@ win+r 输入 services.msc
 
 ## 启动MySQL（命令行）
 
-```markdown
+```bash
 net start mysql
 ```
 
 ## 登录MySQL
 
-```markdown
+```bash
 mysql -h localhost -u root -p
 ```
 
 ## 设置密码
 
-```markdown
+```bash
 SET PASSWORD FOR root@localhost = '';  
 ```
-```markdown
+```bash
 
 SET PASSWORD FOR root@localhost = '123456';  
 ```
@@ -145,18 +145,18 @@ SET PASSWORD FOR root@localhost = '123456';
 ## 退出mysql
 
 ::: code-group
-```markdown [第一种]
+```bash [第一种]
 \q
 ```
-```markdown [第二种]
+```bash [第二种]
 quit
 ```
-```markdown [第三种]
+```bash [第三种]
 exit
 :::
 
 ## 卸载MySQL服务
 
-```markdown
+```bash
 mysqld remove MySQL
 ```

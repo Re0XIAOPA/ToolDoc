@@ -258,7 +258,7 @@ The key's randomart image is:
 >**创建 `config` 文件可以用touch指令创建，也可以在新建文件时直接命名 `config.`**
 >:::
 >
-> ```dosc
+> ```bash
 > #github
 > Host github.com
 > HostName ssh.github.com

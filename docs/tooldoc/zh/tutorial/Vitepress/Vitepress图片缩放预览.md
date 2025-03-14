@@ -8,7 +8,7 @@ vitepress 图片放大预览配置
 
 ## Step. 1: 安装依赖
 
-```npm
+```bash
 npm i markdown-it-custom-attrs
 ```
 Step. 2: 引入插件
@@ -50,7 +50,7 @@ export default {
 ```
 ## Step. 5: 渲染效果
 
-```
+```bash
 ![](图片地址)
 <img src="图片地址" data-fancybox="gallery"/>
 ```
