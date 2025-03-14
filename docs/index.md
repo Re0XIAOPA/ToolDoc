@@ -17,10 +17,6 @@ hero:
     - theme: brand
       text: 📚 浏览文档
       link: /tooldoc/home/Presentation-notes
-
-    - theme: brand
-      text: 🚀 镜像文档
-      link: https://docs.awafuns.cn/
     
     - theme: alt
       text: 💻 Jetbrains Crack
