@@ -1,7 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
   name: "科技工具X - Tools文档"
   # text: "全栈系统学习编程"
