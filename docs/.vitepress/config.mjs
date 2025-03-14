@@ -11,7 +11,7 @@ import search from './config/search';
 export default defineConfig({
   title: "科技工具X - Tools文档",
   description: "科技工具X - Tools文档",
-  base: './',
+  base: '.',
   dist: './dist',
   lang: 'zh-CN',
   head: [
