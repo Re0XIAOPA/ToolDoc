@@ -73,27 +73,33 @@ npm -v
    ```bash
    npm config get registry
    ```
+   
    ::: info 镜像
    #### 设置npm淘宝镜像 (推荐)
    ```bash
-   npm config set registry https://registry.npm.taobao.org/
+   npm config set registry https://registry.npmmirror.com/
    ```
+
    #### npm默认地址
    ```bash
    npm config set registry https://registry.npmjs.org/
    ```
+
    #### 设置npm阿里云镜像
    ```bash
-   npm config set registry https://registry.npmmirror.com/
+   npm config set registry https://npm.aliyun.com
    ```
+
    #### 设置npm华为云镜像
    ```bash
-   npm config set registry https://repo.huaweicloud.com/repository/npm/
+   npm config set registry https://mirrors.huaweicloud.com/repository/npm/
    ```
+
    #### 设置npm腾讯云镜像
    ```bash
    npm config set registry https://mirrors.cloud.tencent.com/npm/
    ```
+
    :::
 ---
 
