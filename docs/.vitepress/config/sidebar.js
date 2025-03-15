@@ -71,7 +71,8 @@ export default {
         {
           text: 'Tomcat安装配置',
           link: "/tooldoc/zh/JavaWeb/Tomcat安装配置.md"
-        }, {
+        },
+        {
           text: 'Eclipse + Tomcat',
           link: "/tooldoc/zh/JavaWeb/eclipse-apache.md"
         },
@@ -110,6 +111,41 @@ export default {
         },
       ]
     }
+  ],
+
+  "/tooldoc/zh/Windows/": [
+    {
+      text: 'Windows',
+      items: [
+        {
+          text: 'Windows家庭版策略组',
+          link: "/tooldoc/zh/Windows/家庭版策略组.md"
+        },
+        {
+          text: 'Windows修改系统用户名',
+          link: "/tooldoc/zh/Windows/修改系统用户名.md"
+        },
+        {
+          text: 'Windows新机断网教程',
+          link: "/tooldoc/zh/Windows/新机断网教程.md"
+        },
+        {
+          text: 'Windows系统更新暂停',
+          link: "/tooldoc/zh/Windows/Win系统更新暂停.md"
+        },
+      ]
+    },
+    {
+      text: '',
+      items: [
+        {
+          text: '返回首页',
+          link: "/index"
+        },
+      ]
+    },
+
+
   ]
 
 };

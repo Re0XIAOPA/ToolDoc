@@ -42,13 +42,13 @@ features:
     link: https://toolstore.awafuns.cn/
 
 
-  - icon: 🛠️
-    title: Jetbrains Crack
+  - icon: 🖥️
+    title: Windows疑问解决
     details: |
-      【开发工具】
-      ▶ Jetbrains
-      ▶ 密钥源于网络
-    link: https://jetbrakey.pages.dev/
+      ▶ 系统
+      ▶ 禁用
+      ▶ 疑难
+    link: /tooldoc/zh/Windows/index.md
 
 
 # - icon: 💼
