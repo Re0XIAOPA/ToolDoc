@@ -2,7 +2,10 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import './custom.css';
+import './custom.css'
+import './hidden.css'
+import './blockquote.css'
+import './custom-block.css'
 
 /** @type {import('vitepress').Theme} */
 export default {

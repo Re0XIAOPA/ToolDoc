@@ -15,6 +15,7 @@ export default defineConfig({
     plugins: [
       AnnouncementPlugin({
         title: '公告',
+        position: 'center',
         body: [
           { type: 'text', content: '🔥欢迎来到科技工具X的文档！🔥' },
           {
@@ -27,7 +28,7 @@ export default defineConfig({
             props: {
               style: 'background-color:rgb(71, 146, 112); color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer;'
             }
-          }
+          },
           // {
           //   type: 'image',
           //   src: 'https://cdn.upyun.sugarat.top/mdImg/sugar/85c9554d023be2fcc5aab94effeef033',
