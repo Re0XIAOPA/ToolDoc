@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+;-----------------------------------------------------------------
+; 默认为最多暂停 7 天，此设置可将其延长（如：9999天）
+; 此操作不会禁用更新功能，也不会带来系统危害，放心使用
+;-----------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings]
+"FlightSettingsMaxPauseDays"=dword:0000270f
