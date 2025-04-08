@@ -6,13 +6,13 @@
         直接下载注册表文件运行禁用
     </p>
     <div style="display: flex; gap: 10px;">
-        <a href="/docs/public/files/Downloads/Windows/禁用系统更新(延长禁用天数).reg" download="禁用系统更新(延长禁用天数).reg"
+        <a href="https://yemiao.lanzout.com/i6VcZ2szx03c" target="_blank"
            style="background-color: #007bff; color: white; border: 2px solid #007bff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px; cursor: pointer; transition: background-color 0.3s, border-color 0.3s;"
            onmouseover="this.style.backgroundColor='#0056b3'; this.style.borderColor='#0056b3';"
            onmouseout="this.style.backgroundColor='#007bff'; this.style.borderColor='#007bff';">
             禁用系统更新(延长禁用天数)
         </a>
-        <a href="/docs/public/files/Downloads/Windows/禁用系统更新延长99999天.reg" download="禁用系统更新延长99999天.reg"
+        <a href="https://yemiao.lanzout.com/iWHd32szx05e" target="_blank"
            style="background-color: #007bff; color: white; border: 2px solid #007bff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px; cursor: pointer; transition: background-color 0.3s, border-color 0.3s;"
            onmouseover="this.style.backgroundColor='#0056b3'; this.style.borderColor='#0056b3';"
            onmouseout="this.style.backgroundColor='#007bff'; this.style.borderColor='#007bff';">
