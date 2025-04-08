@@ -87,25 +87,6 @@ git config --global --unset user.email
 强制推送会覆盖远程仓库上的更改，这可能会影响仓库的其他协作者的工作，如果没有其他协作者，可自行判断进行强制推送。
 :::
 
-## Git(乌龟)可视化工具安装
-
-::: tip **提示**
-TortoiseGit 是一个开源且基于 Windows Shell 的 Git 版本控制系统的界面。提供给了用户友好的图形界面，使得用户无需记忆和输入复杂的 [Git命令](#git-cmd)。
-:::
-
-- TortoiseGit下载：[点击下载](https://tortoisegit.org/download/)
-
->[先安装再汉化]
->
-> - 一个是TortoiseGit的程序安装包
->
-> - 一个是TortoiseGit的汉化程序包
->
->
->安装汉化之后TortoiseGit常规设置里修改语言文件
-
-![TortoiseGit](/tooldoc/zh/tutorial/Git/assets/git_imgs/TortoiseGit.gif)
-
 ## Git配置ssh连接
 
 ::: tip **提示**
@@ -113,24 +94,19 @@ TortoiseGit 是一个开源且基于 Windows Shell 的 Git 版本控制系统的
 :::
 
 ::: tip **配置必看**
-> **如果已经配置过Git，需要先清除Git的全局设置，如果没有配置就跳过这一步**
->
-> **查看 是否存在用户名和邮箱**
->
+如果已经配置过Git，需要先清除Git的全局设置，如果没有配置就跳过这一步查看，是否存在用户名和邮箱
 ```sh
 git config --global --list
 ```
->
-> **删除 用户名和邮箱**
->
+删除用户名
 ```sh
 git config --global --unset user.name
 ```
->
+删除邮箱
 ```sh
 git config --global --unset user.email
 ```
->
+
 :::
 
 ### 生成Github的ssh密钥
@@ -318,7 +294,7 @@ ssh -T git@gitee.com
 - 拥有 Gitee 和 GitHub 账号。
 - 在 Gitee 和 GitHub 上创建新仓库。
 
-## Git使用教程
+## Git完整使用教程（总结）
 
 > Git上传到Gitee仓库和GitHub仓库大致步骤教程
 
