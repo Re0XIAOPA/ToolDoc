@@ -47,7 +47,7 @@
    - 替换的变量 `C:\User\用户名\AppDate\Roaming\npm`
    - 替换为「node_global」地址：`C:\Program Files\nodejs\node_global`
 4. 在系统变量中
-   - 新建变量 `NODE_HOME`，值：`C:\Program Files\nodejs\node_global`
+   - 新建变量 `NODE_HOME`，值：`C:\Program Files\nodejs`
    系统变量的「Path」中添加：
    - `%NODE_HOME%`
    - `%NODE_HOME%\node_global`
