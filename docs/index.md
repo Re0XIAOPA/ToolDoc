@@ -10,7 +10,7 @@ hero:
     # alt: logo
   actions:
     - theme: brand
-      text: 🚀 开始文档
+      text: 开始文档
       link: /tooldoc/home/Start-Document
 
     - theme: alt
@@ -18,7 +18,7 @@ hero:
       link: https://github.com/Re0XIAOPA/AutoScrapeFreeNodes
 
     - theme: alt
-      text: 💻 Jetbrains Crack - Jetbrains全家桶 激活
+      text: Jetbrains Crack - Jetbrains全家桶 激活
       link: https://jetbrakey.pages.dev/
       # link: https://github.com/Re0XIAOPA/ToolDoc
       # 🎯🔥🌟

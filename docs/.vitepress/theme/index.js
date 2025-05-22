@@ -6,7 +6,7 @@ import './custom.css'
 import './hidden.css'
 import './blockquote.css'
 import './custom-block.css'
-
+import './link.css'
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
