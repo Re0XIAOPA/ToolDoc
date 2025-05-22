@@ -6,47 +6,12 @@ import nav from './config/nav';
 import sidebar from './config/sidebar';
 import footer from './config/footer';
 import search from './config/search';
-import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+// import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  vite: {
-    // ↓↓↓↓↓
-    plugins: [
-      AnnouncementPlugin({
-        title: '公告',
-        position: 'center',
-        body: [
-          { type: 'text', content: '🔥欢迎来到科技工具X的文档！🔥' },
-          {
-            type: 'text', content: '🎉汝若访问慢 可前往镜像站🎉 '
-          },
-          {
-            type: 'button',
-            content: '科技工具X镜像站',
-            link: 'https://docs.awafuns.cn',
-            props: {
-              style: 'background-color:rgb(71, 146, 112); color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer;'
-            }
-          },
-          // {
-          //   type: 'image',
-          //   src: 'https://cdn.upyun.sugarat.top/mdImg/sugar/85c9554d023be2fcc5aab94effeef033',
-          //   style: 'display: inline-block;width:46%;padding-right:6px'
-          // },
-        ],
-        footer: [
-          // {
-          //   type: 'text',
-          //   content: 'footer content'
-          // },
-        ],
-      })
-    ]
-    // ↑↑↑↑↑
-  },
-  title: "科技工具X - Tools文档",
-  description: "科技工具X - Tools文档",
+  title: "Re0XIAOPA DOCS",
+  description: "Re0XIAOPA的文档，欸嘿这里是我学习的笔记！！！",
   base: '/',
   dist: './dist',
   lang: 'zh-CN',
@@ -82,8 +47,8 @@ export default defineConfig({
     outline: [2, 6],
     logo: "/tool.png",
 
-    // 设置默认主题为暗色模式
-    appearance: 'dark',
+    // 设置默认主题为暗色模式  暗色dark 亮色light 跟随系统auto
+    appearance: 'auto',
 
     // 导航配置调用
     nav,

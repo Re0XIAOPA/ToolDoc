@@ -6,3 +6,18 @@
     background-color: var(--vp-c-gray-soft);
     border-left: 6px solid var(--vp-c-green-2);
 }
+
+.VPHero {
+    display: flex;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.box {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
