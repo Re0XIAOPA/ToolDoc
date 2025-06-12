@@ -54,7 +54,6 @@
 
 ::: code-group
 ```bash [配置一]
-```ini
 [mysqld]
 
 # Remove leading # and set to the amount of RAM for the most important data
@@ -85,7 +84,6 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 ```
 
 ```bash [配置二]
-```ini
 [mysqld]
 # 自定义设置3306端口，建议采用默认；如果已存在可以设置其它端口号
 port=3306
@@ -112,7 +110,6 @@ default-character-set=utf8mb4
 ```
 
 ```bash [配置三]
-```ini
 [mysql]
 # 设置mysql客户端默认字符集
 default-character-set=utf8
