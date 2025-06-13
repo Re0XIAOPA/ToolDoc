@@ -60,6 +60,11 @@
 npm config get prefix    # 应显示 node_global 路径
 npm config get cache     # 应显示 node_cache 路径
 
+# 如果路径不对请按以下设置
+
+npm config set prefix + 路径    # 可设置 node_global 路径
+npm config set cache + 路径     # 可设置 node_cache 路径
+
 # 测试node
 node -v
 
