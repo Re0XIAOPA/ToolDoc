@@ -118,4 +118,8 @@ npm -v
    ```bash
    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
    ```
+   或者
+   ```bash
+   Set-ExecutionPolicy RemoteSigned
+   ```
 > 配置完成后，所有 `npm install -g` 安装的包都会存储到 `node_global`，缓存文件将存放到 `node_cache`
