@@ -144,6 +144,9 @@ export default [{
       // 也可以省略标题
       text: '动漫',
       items: [{
+        text: 'Animeko(一站式在线弹幕追番平台)',
+        link: 'https://myani.org/'
+      },{
         text: '次元城动漫发布页',
         link: 'https://www.cycity.pro/'
       },
