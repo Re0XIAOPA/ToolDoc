@@ -149,7 +149,9 @@ export default [{
       },{
         text: '次元城动漫发布页',
         link: 'https://www.cycity.pro/'
-      },
+      },{
+        text: 'AGE动漫(懂得都懂)',
+        link: 'https://age.tv/'
       {
         text: '囧次元(日漫&弹幕)',
         link: 'https://jcypc.net/'
