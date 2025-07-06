@@ -146,12 +146,15 @@ export default [{
       items: [{
         text: 'Animeko(一站式在线弹幕追番平台)',
         link: 'https://myani.org/'
-      },{
+      },
+      {
         text: '次元城动漫发布页',
         link: 'https://www.cycity.pro/'
-      },{
+      },
+      {
         text: 'AGE动漫(懂得都懂)',
         link: 'https://age.tv/'
+      },
       {
         text: '囧次元(日漫&弹幕)',
         link: 'https://jcypc.net/'
