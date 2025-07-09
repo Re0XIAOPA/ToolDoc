@@ -207,7 +207,7 @@ export default [{
     text: '工具',
     items: [{
       text: '代理工具&&推荐机场',
-      link: 'https://re0xiaopa.github.io/ToolStore/'
+      link: 'https://toolstore.awafuns.cn/'
     },]
   },
   {
