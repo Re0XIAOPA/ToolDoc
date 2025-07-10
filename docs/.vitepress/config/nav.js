@@ -156,8 +156,12 @@ export default [{
         link: 'https://age.tv/'
       },
       {
-        text: '囧次元(日漫&弹幕)',
-        link: 'https://jcypc.net/'
+        text: '囧次元发布页(邀请码wacpkd)',
+        link: 'https://jocyapp.cc/'
+      },
+      {
+        text: '动漫共和国发布页',
+        link: 'https://oneghg.com/'
       },
       {
         text: 'omofun(官网复活啦)',
