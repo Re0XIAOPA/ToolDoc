@@ -181,7 +181,7 @@ export default [{
         link: 'https://www.kkys03.com/'
       },
       {
-        name: '奈飞工厂',
+        text: '奈飞工厂',
         link: 'https://yanetflix.com/'
       },
       {
