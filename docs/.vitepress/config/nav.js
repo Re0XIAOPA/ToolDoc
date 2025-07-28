@@ -170,10 +170,6 @@ export default [{
       {
         text: 'MX动漫(国漫&日漫)',
         link: 'http://www.mxdm.tv/'
-      },
-      {
-        text: 'FreeOK(动漫&追剧)',
-        link: 'https://freeok.lol/'
       }
       ]
     },
@@ -182,17 +178,25 @@ export default [{
       text: '影视',
       items: [{
         text: '可可影视(可百度搜)',
-        link: 'https://www.keke13.com/'
+        link: 'https://www.kkys03.com/'
       },
       {
-        text: '韩剧TV(韩小圈&动漫&韩剧)',
-        link: 'https://www.hjtv2.cc/'
+        name: '奈飞工厂',
+        link: 'https://yanetflix.com/'
+      },
+      {
+        text: '网飞猫',
+        link: 'https://www.ncat1.app/'
       }, {
         text: 'FreeOK(动漫&追剧)',
         link: 'https://freeok.lol/'
       }, {
         text: '追剧影视(动漫&追剧)',
         link: 'http://zjuys.com/'
+      },
+      {
+        text: '追影猫',
+        link: 'https://zhuiyingmao6.com/'
       }
       ]
     },
